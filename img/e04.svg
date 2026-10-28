@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img" aria-label="E04">
+<rect width="900" height="1200" fill="#0b0b0b"/>
+<rect x="54" y="156" width="248" height="924" fill="#ecece6"/>
+<rect x="312" y="274" width="102" height="806" fill="#c8ff00"/>
+<rect x="424" y="202" width="254" height="878" fill="#ecece6"/>
+<rect x="689" y="480" width="147" height="600" fill="#ecece6"/>
+<rect x="0" y="1145" width="900" height="55" fill="#0b0b0b" opacity="0.92"/>
+<line x1="0" y1="1145" x2="900" y2="1145" stroke="#ecece6" stroke-width="3"/>
+<text x="21" y="1180" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="21" fill="#ecece6">IMAGEN PROVISIONAL — E04 — 900×1200</text>
+</svg>

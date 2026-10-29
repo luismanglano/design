@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nombre Apellido — Diseño gráfico y dirección de arte en Valencia</title>
+  <meta name="description" content="Diseñador gráfico independiente y director de arte en Valencia: identidad visual, diseño editorial y proyectos culturales, de música y de arquitectura.">
+  <meta name="theme-color" content="#e1e1e1">
+  <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="img/favicon-16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="img/favicon.svg" sizes="any" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <!-- Newsreader (Google Fonts): carga sin bloquear la página; si no carga, se usa la serif del sistema -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap"></noscript>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/motion.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/home.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Nombre Apellido</a>
+      <nav class="nav" aria-label="Principal">
+        <ul>
+        <li><a href="index.html" aria-current="page">Inicio</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="cocina.html">Cocina</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <section class="intro wrap grid" aria-label="Presentación">
+      <h1 class="lead">Diseño gráfico y dirección de arte en Valencia. Identidad visual, diseño editorial y proyectos culturales, de música y de arquitectura.</h1>
+    </section>
+
+    <section class="wrap stage" aria-label="Selección visual de proyectos">
+      <div class="stage__frame" id="stage">
+        <a class="stage__slide is-active" href="proyecto.html?id=01"><img src="img/feat-1.svg" width="1600" height="900" alt="Imagen provisional destacada 1" fetchpriority="high"></a>
+      </div>
+      <div class="stage__bar mono">
+        <span id="stage-caption" class="muted">01 — [Título del proyecto 01]</span>
+        <button class="stage__toggle" id="stage-toggle" type="button" hidden>Pausar</button>
+      </div>
+    </section>
+
+    <section class="wrap" aria-labelledby="seleccion-t">
+      <div class="section-head">
+        <h2 id="seleccion-t" class="mono muted" style="font-weight:400">Selección</h2>
+        <a class="link mono" href="proyectos.html">Todos los proyectos →</a>
+      </div>
+      <div class="works works--home grid" id="selection">
+        <noscript><p class="mono">Activa JavaScript para ver la selección o ve a <a class="link" href="proyectos.html">Proyectos</a>.</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap mono">
+      <span>© <span data-year>2026</span> Nombre Apellido · Valencia</span>
+      <a class="link" data-email href="mailto:correo@ejemplo.com">correo@ejemplo.com</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img" aria-label="Imagen provisional P04-3">
+<defs><filter id="n" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter></defs>
+<rect width="1200" height="1200" fill="#cfcfcf"/>
+<rect x="96" y="96" width="308" height="308" fill="#e8e8e8" opacity="0.6"/>
+<rect x="446" y="96" width="308" height="308" fill="#292929" opacity="0.95"/>
+<rect x="796" y="96" width="308" height="308" fill="#e8e8e8" opacity="0.6"/>
+<rect x="96" y="446" width="308" height="308" fill="#e8e8e8" opacity="0.6"/>
+<rect x="446" y="446" width="308" height="308" fill="#e8e8e8" opacity="0.6"/>
+<rect x="796" y="446" width="308" height="308" fill="#e8e8e8" opacity="0.6"/>
+<rect width="1200" height="1200" filter="url(#n)" opacity=".10" style="mix-blend-mode:multiply"/>
+<rect x="12" y="1150" width="488" height="38" fill="#e1e1e1" opacity=".92"/><text x="24" y="1176" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="20" fill="#292929">IMAGEN PROVISIONAL · P04-3 · 1200×1200</text>
+</svg>

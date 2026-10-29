@@ -1,0 +1,59 @@
+/* ==========================================================================
+   COMPONENTES — ficha de proyecto en retícula, imágenes y etiquetas.
+   ========================================================================== */
+
+/* Imágenes: fondo neutro mientras cargan; sin bordes ni sombras */
+.fig img, .work__fig img, .tile img {
+  width: 100%;
+  height: auto;
+  background: var(--tile);
+}
+
+/* ---------- Proyecto en la retícula ---------- */
+.work__link { display: block; text-decoration: none; }
+.work__fig { overflow: hidden; background: var(--tile); }
+.work__meta { display: grid; gap: 0.15rem; padding-top: 0.75rem; }
+.work__title {
+  position: relative;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+/* Indicador de acento al pasar o enfocar */
+.work__title::before {
+  content: "";
+  position: absolute;
+  left: -0.85rem;
+  top: 0.42em;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.work__link:hover .work__title,
+.work__link:focus-visible .work__title {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+.work__link:hover .work__title::before,
+.work__link:focus-visible .work__title::before { opacity: 1; }
+.work__link:focus-visible { outline-offset: 6px; }
+
+/* ---------- Cocina ---------- */
+.tile figcaption { display: grid; gap: 0.1rem; padding-top: 0.6rem; }
+
+/* ---------- Etiqueta de contenido provisional ---------- */
+.tag {
+  display: inline-block;
+  padding: 0 0.4em;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  font-family: var(--mono);
+  font-size: 0.6875rem;
+  line-height: 1.5;
+  vertical-align: 0.1em;
+}

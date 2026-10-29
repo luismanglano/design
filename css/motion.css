@@ -1,0 +1,22 @@
+/* ==========================================================================
+   MOVIMIENTO — todo lo animado vive aquí y solo se activa si el usuario no
+   ha pedido reducir el movimiento. Solo opacity (y un fundido entre páginas).
+   ========================================================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* Transición discreta entre páginas (View Transitions entre documentos).
+     Donde no hay soporte, el navegador ignora la regla y navega con normalidad. */
+  @view-transition { navigation: auto; }
+  ::view-transition-old(root) { animation: vt-out 0.18s ease both; }
+  ::view-transition-new(root) { animation: vt-in 0.28s ease both; }
+  @keyframes vt-out { to { opacity: 0; } }
+  @keyframes vt-in  { from { opacity: 0; } }
+
+  /* Fundido lento entre proyectos en la pieza destacada */
+  .stage__slide { transition: opacity 1.1s ease; }
+
+  /* Imágenes de proyecto: respuesta mínima al pasar el cursor */
+  .work__fig img { transition: opacity 0.25s ease; }
+  .work__link:hover .work__fig img { opacity: 0.88; }
+}

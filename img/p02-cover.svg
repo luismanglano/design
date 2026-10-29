@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" width="1500" height="1000" role="img" aria-label="Imagen provisional P02">
+<defs><filter id="n" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter></defs>
+<rect width="1500" height="1000" fill="#292929"/>
+<rect x="120" y="80" width="397" height="397" fill="#4a4a4a" opacity="0.6"/>
+<rect x="552" y="80" width="397" height="397" fill="#4a4a4a" opacity="0.6"/>
+<rect x="983" y="80" width="397" height="397" fill="#e1e1e1" opacity="0.95"/>
+<rect x="120" y="512" width="397" height="397" fill="#4a4a4a" opacity="0.6"/>
+<rect x="552" y="512" width="397" height="397" fill="#4a4a4a" opacity="0.6"/>
+<rect x="983" y="512" width="397" height="397" fill="#4a4a4a" opacity="0.6"/>
+<rect width="1500" height="1000" filter="url(#n)" opacity=".10" style="mix-blend-mode:multiply"/>
+<rect x="16" y="935" width="602" height="49" fill="#e1e1e1" opacity=".92"/><text x="31" y="969" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="26" fill="#292929">IMAGEN PROVISIONAL · P02 · 1500×1000</text>
+</svg>

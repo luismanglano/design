@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img" aria-label="Imagen provisional P06-3">
+<defs><filter id="n" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter></defs>
+<rect width="1200" height="1200" fill="#d9d9d9"/>
+<rect x="120" y="144" width="381" height="453" fill="#9a9a9a" opacity="0.55"/>
+<rect x="360" y="312" width="459" height="596" fill="#292929" opacity="0.65"/>
+<rect x="600" y="480" width="400" height="447" fill="#9a9a9a" opacity="0.75"/>
+<rect width="1200" height="1200" filter="url(#n)" opacity=".10" style="mix-blend-mode:multiply"/>
+<rect x="12" y="1150" width="488" height="38" fill="#e1e1e1" opacity=".92"/><text x="24" y="1176" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="20" fill="#292929">IMAGEN PROVISIONAL · P06-3 · 1200×1200</text>
+</svg>

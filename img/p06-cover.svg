@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="P06-COVER">
-<rect width="800" height="1000" fill="#0b0b0b"/>
-<circle cx="317" cy="534" r="243" fill="#c8ff00" stroke="#ecece6" stroke-width="6"/>
-<rect x="64" y="100" width="672" height="800" fill="none" stroke="#ecece6" stroke-width="6"/>
-<line x1="0" y1="534" x2="800" y2="534" stroke="#ecece6" stroke-width="4"/>
-<rect x="0" y="951" width="800" height="49" fill="#0b0b0b" opacity="0.92"/>
-<line x1="0" y1="951" x2="800" y2="951" stroke="#ecece6" stroke-width="3"/>
-<text x="19" y="982" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" fill="#ecece6">IMAGEN PROVISIONAL — P06-COVER — 800×1000</text>
-</svg>

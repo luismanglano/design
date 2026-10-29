@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="E02">
-<rect width="1200" height="800" fill="#ecece6"/>
-<circle cx="498" cy="401" r="231" fill="#c8ff00" stroke="#0b0b0b" stroke-width="6"/>
-<rect x="96" y="80" width="1008" height="640" fill="none" stroke="#0b0b0b" stroke-width="6"/>
-<line x1="0" y1="401" x2="1200" y2="401" stroke="#0b0b0b" stroke-width="4"/>
-<rect x="0" y="751" width="1200" height="49" fill="#ecece6" opacity="0.92"/>
-<line x1="0" y1="751" x2="1200" y2="751" stroke="#0b0b0b" stroke-width="3"/>
-<text x="19" y="782" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" fill="#0b0b0b">IMAGEN PROVISIONAL — E02 — 1200×800</text>
-</svg>
